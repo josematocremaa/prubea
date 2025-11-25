@@ -24,7 +24,7 @@ setup(
     },
     entry_points={
         'console_scripts': [
-            'di_hola = prueba.mi_nodo:main',
+            'di_hola = prueba.holamundo:main',
         ],
     },
 )
