@@ -24,7 +24,8 @@ setup(
     },
     entry_points={
         'console_scripts': [
-            'di_hola = prueba.holamundo:main',
+            # Formato: 'nombre_comando = carpeta.archivo:funcion'
+            'mover_motor = prueba.test_roboclaw:main',
         ],
     },
 )
